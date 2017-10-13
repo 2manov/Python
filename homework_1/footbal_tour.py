@@ -50,10 +50,10 @@ def sort():
 
 def func():
     print("Хотите ли вы узнать результат определенного матча: yes/no")
-    c = input()
-    if c == "yes":
+    result = input()
+    if result == "yes":
         get_info()
-    elif c == "no":
+    elif result == "no":
         print("Goodbye!")
     else:
         print("Error. Try again)")
